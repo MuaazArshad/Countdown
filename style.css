@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #1a6aa2;
+	--secondary-color: #102a42;
+	--grey-color: #829ab0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f1f5f8;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+}
+
+.img {
+	width: 50%;
+	height: auto;
+}
+
+.info {
+	margin: 30px;
+}
+
+.l-heading {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: var(--primary-color);
+	margin-bottom: 10px;
+}
+
+.s-heading {
+	font-size: 20px;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	color: var(--secondary-color);
+	margin-bottom: 50px;
+}
+
+p {
+	font-size: 20px;
+	color: #829ab0;
+	margin-bottom: 30px;
+}
+
+.deadline-container {
+	display: flex;
+	width: 90%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.deadline {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--secondary-color);
+	color: #f1f5f8;
+}
+
+.deadline h4 {
+	font-size: 40px;
+}
+
+.deadline span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
