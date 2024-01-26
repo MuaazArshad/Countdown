@@ -83,9 +83,22 @@ p {
 
 .deadline h4 {
 	font-size: 40px;
+	transition: all 0.2s ease;
 }
 
 .deadline span {
 	text-transform: uppercase;
 	letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		flex-direction: column;
+		width: 80%;
+	}
+
+	.img {
+		width: 100%;
+		height: auto;
+	}
 }
